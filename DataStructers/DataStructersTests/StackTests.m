@@ -79,12 +79,22 @@
     XCTAssertTrue(numberFromTheStack == number);
 }
 
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testLIFO {
+    NSNumber *one = [NSNumber numberWithInteger:1];
+    NSNumber *two = [NSNumber numberWithInteger:2];
+    NSNumber *three = [NSNumber numberWithInteger:3];
+    
+    [stack push:one];
+    [stack push:two];
+    [stack push:three];
+    
+    NSNumber *first = [stack pop];
+    NSNumber *second = [stack pop];
+    NSNumber *third = [stack pop];
+    
+    XCTAssertEqual(first, three);
+    XCTAssertEqual(second, two);
+    XCTAssertEqual(third, one);
 }
 
 @end

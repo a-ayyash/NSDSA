@@ -10,6 +10,8 @@
 		4C7F857F1C3C3DE2003248BB /* StackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F857E1C3C3DE2003248BB /* StackTests.m */; };
 		4C7F85811C3C3F0A003248BB /* libNSDSA.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CBC72CE1C39A4A0004FE689 /* libNSDSA.a */; };
 		4C91DF9C1C429B9D0001F72E /* QueueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C91DF9B1C429B9D0001F72E /* QueueTests.m */; };
+		4C91DFA71C42BA520001F72E /* NodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C91DFA61C42BA520001F72E /* NodeTests.m */; };
+		4C91DFA91C42BB020001F72E /* testLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C91DFA81C42BB020001F72E /* testLinkedList.m */; };
 		4CBC72A61C39A45F004FE689 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC72A51C39A45F004FE689 /* main.m */; };
 		4CBC72A91C39A45F004FE689 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC72A81C39A45F004FE689 /* AppDelegate.m */; };
 		4CBC72AC1C39A45F004FE689 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CBC72AB1C39A45F004FE689 /* ViewController.m */; };
@@ -47,6 +49,8 @@
 /* Begin PBXFileReference section */
 		4C7F857E1C3C3DE2003248BB /* StackTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StackTests.m; sourceTree = "<group>"; };
 		4C91DF9B1C429B9D0001F72E /* QueueTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QueueTests.m; sourceTree = "<group>"; };
+		4C91DFA61C42BA520001F72E /* NodeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NodeTests.m; sourceTree = "<group>"; };
+		4C91DFA81C42BB020001F72E /* testLinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testLinkedList.m; sourceTree = "<group>"; };
 		4CBC72A11C39A45F004FE689 /* DataStructers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataStructers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CBC72A51C39A45F004FE689 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4CBC72A71C39A45F004FE689 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 				4CBC72BE1C39A45F004FE689 /* DataStructersTests.m */,
 				4CBC72C01C39A45F004FE689 /* Info.plist */,
 				4C7F857E1C3C3DE2003248BB /* StackTests.m */,
+				4C91DFA61C42BA520001F72E /* NodeTests.m */,
+				4C91DFA81C42BB020001F72E /* testLinkedList.m */,
 			);
 			path = DataStructersTests;
 			sourceTree = "<group>";
@@ -276,7 +282,9 @@
 			files = (
 				4C7F857F1C3C3DE2003248BB /* StackTests.m in Sources */,
 				4CBC72BF1C39A45F004FE689 /* DataStructersTests.m in Sources */,
+				4C91DFA91C42BB020001F72E /* testLinkedList.m in Sources */,
 				4C91DF9C1C429B9D0001F72E /* QueueTests.m in Sources */,
+				4C91DFA71C42BA520001F72E /* NodeTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +409,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DataStructers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = asdf.DataStructers;
@@ -412,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = DataStructers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = asdf.DataStructers;

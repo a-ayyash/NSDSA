@@ -20,8 +20,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    dsa = [[NSDSA alloc] init];
-    [dsa noSeriouslyThisIsIT];
+    
+    id X = @101;
+    id Y = @10;
+    NSLog(@"%d", X==Y);
 }
 
 - (void)didReceiveMemoryWarning {

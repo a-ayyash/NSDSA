@@ -11,6 +11,10 @@
 		4C7F85821C3C3FB7003248BB /* AAStack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C7F857B1C3C3D97003248BB /* AAStack.h */; };
 		4C91DF9A1C429B8D0001F72E /* AAQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C91DF991C429B8D0001F72E /* AAQueue.m */; };
 		4C91DF9D1C429BAD0001F72E /* AAQueue.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C91DF981C429B8D0001F72E /* AAQueue.h */; };
+		4C91DFA01C42A57D0001F72E /* AANode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C91DF9F1C42A57D0001F72E /* AANode.m */; };
+		4C91DFA31C42A5980001F72E /* AALinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C91DFA21C42A5980001F72E /* AALinkedList.m */; };
+		4C91DFA41C42BA390001F72E /* AANode.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C91DF9E1C42A57D0001F72E /* AANode.h */; };
+		4C91DFA51C42BA390001F72E /* AALinkedList.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C91DFA11C42A5980001F72E /* AALinkedList.h */; };
 		4CE2988B1C396DFA00A193DC /* NSDSA.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4CE2988A1C396DFA00A193DC /* NSDSA.h */; };
 		4CE2988D1C396DFA00A193DC /* NSDSA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE2988C1C396DFA00A193DC /* NSDSA.m */; };
 /* End PBXBuildFile section */
@@ -22,6 +26,8 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				4C91DFA41C42BA390001F72E /* AANode.h in CopyFiles */,
+				4C91DFA51C42BA390001F72E /* AALinkedList.h in CopyFiles */,
 				4C91DF9D1C429BAD0001F72E /* AAQueue.h in CopyFiles */,
 				4C7F85821C3C3FB7003248BB /* AAStack.h in CopyFiles */,
 				4CE2988B1C396DFA00A193DC /* NSDSA.h in CopyFiles */,
@@ -35,6 +41,10 @@
 		4C7F857C1C3C3D97003248BB /* AAStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAStack.m; sourceTree = "<group>"; };
 		4C91DF981C429B8D0001F72E /* AAQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAQueue.h; sourceTree = "<group>"; };
 		4C91DF991C429B8D0001F72E /* AAQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAQueue.m; sourceTree = "<group>"; };
+		4C91DF9E1C42A57D0001F72E /* AANode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AANode.h; sourceTree = "<group>"; };
+		4C91DF9F1C42A57D0001F72E /* AANode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AANode.m; sourceTree = "<group>"; };
+		4C91DFA11C42A5980001F72E /* AALinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AALinkedList.h; sourceTree = "<group>"; };
+		4C91DFA21C42A5980001F72E /* AALinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AALinkedList.m; sourceTree = "<group>"; };
 		4CE298871C396DFA00A193DC /* libNSDSA.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNSDSA.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CE2988A1C396DFA00A193DC /* NSDSA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSDSA.h; sourceTree = "<group>"; };
 		4CE2988C1C396DFA00A193DC /* NSDSA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDSA.m; sourceTree = "<group>"; };
@@ -76,6 +86,10 @@
 				4C7F857C1C3C3D97003248BB /* AAStack.m */,
 				4C91DF981C429B8D0001F72E /* AAQueue.h */,
 				4C91DF991C429B8D0001F72E /* AAQueue.m */,
+				4C91DF9E1C42A57D0001F72E /* AANode.h */,
+				4C91DF9F1C42A57D0001F72E /* AANode.m */,
+				4C91DFA11C42A5980001F72E /* AALinkedList.h */,
+				4C91DFA21C42A5980001F72E /* AALinkedList.m */,
 			);
 			path = NSDSA;
 			sourceTree = "<group>";
@@ -139,7 +153,9 @@
 			files = (
 				4C7F857D1C3C3D97003248BB /* AAStack.m in Sources */,
 				4C91DF9A1C429B8D0001F72E /* AAQueue.m in Sources */,
+				4C91DFA31C42A5980001F72E /* AALinkedList.m in Sources */,
 				4CE2988D1C396DFA00A193DC /* NSDSA.m in Sources */,
+				4C91DFA01C42A57D0001F72E /* AANode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

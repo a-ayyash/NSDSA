@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C67DFE61CAC2A650031200E /* Iterator.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C67DFE51CAC0B840031200E /* Iterator.h */; };
 		4C7F857D1C3C3D97003248BB /* AAStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C7F857C1C3C3D97003248BB /* AAStack.m */; };
 		4C7F85821C3C3FB7003248BB /* AAStack.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C7F857B1C3C3D97003248BB /* AAStack.h */; };
 		4C91DF9A1C429B8D0001F72E /* AAQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C91DF991C429B8D0001F72E /* AAQueue.m */; };
@@ -26,6 +27,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				4C67DFE61CAC2A650031200E /* Iterator.h in CopyFiles */,
 				4C91DFA41C42BA390001F72E /* AANode.h in CopyFiles */,
 				4C91DFA51C42BA390001F72E /* AALinkedList.h in CopyFiles */,
 				4C91DF9D1C429BAD0001F72E /* AAQueue.h in CopyFiles */,
@@ -37,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C67DFE51CAC0B840031200E /* Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
 		4C7F857B1C3C3D97003248BB /* AAStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAStack.h; sourceTree = "<group>"; };
 		4C7F857C1C3C3D97003248BB /* AAStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAStack.m; sourceTree = "<group>"; };
 		4C91DF981C429B8D0001F72E /* AAQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAQueue.h; sourceTree = "<group>"; };
@@ -90,6 +93,7 @@
 				4C91DF9F1C42A57D0001F72E /* AANode.m */,
 				4C91DFA11C42A5980001F72E /* AALinkedList.h */,
 				4C91DFA21C42A5980001F72E /* AALinkedList.m */,
+				4C67DFE51CAC0B840031200E /* Iterator.h */,
 			);
 			path = NSDSA;
 			sourceTree = "<group>";

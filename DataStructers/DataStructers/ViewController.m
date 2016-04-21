@@ -8,9 +8,10 @@
 
 #import "ViewController.h"
 #import "NSDSA/NSDSA.h"
+#import "NSDSA/AALinkedList.h"
 
 @interface ViewController () {
-    NSDSA* dsa;
+    AALinkedList* llist;
 }
 
 @end
@@ -21,9 +22,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    id X = @101;
-    id Y = @10;
-    NSLog(@"%d", X==Y);
+    llist = [[AALinkedList alloc] init];
+    [llist insert:@"A"];
+    [llist insert:@"B"];
+    [llist insert:@"C"];
 }
 
 - (void)didReceiveMemoryWarning {

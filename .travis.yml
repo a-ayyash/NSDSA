@@ -1,5 +1,5 @@
 install: true
 osx_image: xcode7.3
 language: objective-c
-xcode_project: DataStructures/DataStructures.xcodeproj
-xcode_scheme: DataStructuresTests
+xcode_project: DataStructers/DataStructers.xcodeproj
+xcode_scheme: DataStructersTests

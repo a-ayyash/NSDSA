@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4CE298861C396DFA00A193DC"
+               BuildableName = "libNSDSA.a"
+               BlueprintName = "NSDSA"
+               ReferencedContainer = "container:../NSDSA.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "4CBC72A01C39A45F004FE689"
                BuildableName = "DataStructers.app"
                BlueprintName = "DataStructers"
